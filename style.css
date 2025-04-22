@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    background-image:url(wallpaper.jpg) ;
+    width: 100%;
+    background-position: center;
+    min-height: 100vh;
+    padding: 5%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(black, 1.0);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(0px) saturate(180%);
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 1px;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    border-radius: 5%;
+    background:none;
+    color: rgb(184, 184, 184);
+}
+::placeholder{
+    color: rgb(197, 197, 197);
+}
+.border2 {
+    border: 0.5px solid transparent;
+}
+.border2 {
+    border-radius: 4%;
+    border: 3.5px solid silver;
+    border-color: rgb(51, 51, 51);
+}
+.submit{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: black;
+    background: transparent;
+}
+.navbar {
+    height: 50px;
+    background-color: black;
+    color:transparent;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+.nav-logo {
+    height: 50px;
+    width:50px ;
+}
+.logo {
+    background-image:url("images.jpeg") ;
+    background-size: cover;
+    height: 45px;
+    width: 40px;
+    border-radius: 100%;
+}
+.border {
+    border: 0.5px solid transparent;
+}
+.border:hover {
+    border: 2.5px solid green;
+    border-radius: 100%;
+    border-color: snow;
+}
+
+.logo-name {
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-size: 30px;
+    background-position: center;
+    filter: drop-shadow(0 0 1px rgb(255, 255, 255));
+}
+a{
+    color: white;
+    font-size: 15px;
+    margin-right: 80px;
+    text-decoration: none;
+    margin-left: 150px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.border-1{
+    border: 1.5px solid transparent;
+}
+.border-1:hover {
+    border: 2.0px solid white;
+    border-radius: 3px;
+    border-color: silver;
+}
+.navbar2 {
+    margin-right: 30px;
+    margin-left: 150px;
+}
+.account {
+    background-image: url(account.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.border-3{
+    border: 1.5px solid transparent;
+}
+.border3:hover {
+    border: 2.5px solid green;
+    border-radius: 50%;
+    border-color: snow;
+    width: 53px;
+    display:flex ;
+}
